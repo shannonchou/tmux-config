@@ -150,27 +150,27 @@ To reload config file
 Commands
 --------
 
-Our prefix/leader key is `Control + a` now (just like the `screen` multiplexer). This sequence must be typed before any tmux shortcut.
+Our prefix/leader key is `Control + q` now. This sequence must be typed before any tmux shortcut.
 
-* `Control + a` before any command
-* `Control + a` then `?` to bring up list of keyboard shortcuts
-* `Control + a` then `"` to split window
-* `Control + a` then `<Space>` to change pane arrangement
-* `Control + a` then `o` to rotate panes
-* `Control + a` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
-* `Control + a` then `;` to go to last panel
+* `Control + q` before any command
+* `Control + q` then `?` to bring up list of keyboard shortcuts
+* `Control + q` then `|` to split window
+* `Control + q` then `<Space>` to change pane arrangement
+* `Control + q` then `o` to rotate panes
+* `Control + q` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
+* `Control + q` then `;` to go to last panel
 
 Beyond your first window:
 
-* `Control + a` then `c` to create a new window
-* `Control + a` then `n` to next window
-* `Control + a` then `p` to previous window
-* `Control + a` then `[0-9]` move to window number
-* `Control + a` then `&` to kill window
+* `Control + q` then `c` to create a new window
+* `Control + q` then `n` to next window
+* `Control + q` then `p` to previous window
+* `Control + q` then `[0-9]` move to window number
+* `Control + q` then `&` to kill window
 
 Custom:
 
-* `Control + a` then `m` to switch to ``main-horizontal`` layout with the main window at 60% height.
+* `Control + q` then `m` to switch to ``main-horizontal`` layout with the main window at 60% height.
 
 More configs / Tools
 --------------------
